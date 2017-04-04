@@ -3,8 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{93F59D80-7260-498D-85C4-99AC253DEFDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "repository", "repository", "{BCFC3A54-56BA-4E2D-BB40-066555C12851}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{DEF9005F-B584-47EA-A394-7D74CFB1285E}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCFC3A54-56BA-4E2D-BB40-066555C12851} = {93F59D80-7260-498D-85C4-99AC253DEFDA}
+		{DEF9005F-B584-47EA-A394-7D74CFB1285E} = {93F59D80-7260-498D-85C4-99AC253DEFDA}
 	EndGlobalSection
 EndGlobal
