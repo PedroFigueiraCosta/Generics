@@ -5,16 +5,23 @@ VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{93F59D80-7260-498D-85C4-99AC253DEFDA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "repository", "repository", "{BCFC3A54-56BA-4E2D-BB40-066555C12851}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{DEF9005F-B584-47EA-A394-7D74CFB1285E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics.Infrastructure", "Generics.Infrastructure\Generics.Infrastructure.csproj", "{FF0A1FCF-B3B9-4B46-9EB3-99BAB15B31CF}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF0A1FCF-B3B9-4B46-9EB3-99BAB15B31CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0A1FCF-B3B9-4B46-9EB3-99BAB15B31CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0A1FCF-B3B9-4B46-9EB3-99BAB15B31CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0A1FCF-B3B9-4B46-9EB3-99BAB15B31CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BCFC3A54-56BA-4E2D-BB40-066555C12851} = {93F59D80-7260-498D-85C4-99AC253DEFDA}
-		{DEF9005F-B584-47EA-A394-7D74CFB1285E} = {93F59D80-7260-498D-85C4-99AC253DEFDA}
+		{FF0A1FCF-B3B9-4B46-9EB3-99BAB15B31CF} = {93F59D80-7260-498D-85C4-99AC253DEFDA}
 	EndGlobalSection
 EndGlobal
